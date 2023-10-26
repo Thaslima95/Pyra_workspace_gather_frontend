@@ -1,38 +1,78 @@
-.App {
+/* src/components/HomePage.css */
+.home{
+  width: 800px; /* Set your desired layout size */
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
   text-align: center;
+  background-color: #f0f0f0;
+  padding: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+main {
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+footer {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* .element {
+  width: 1200px;
+  height: 687.02px;
+  top: 578px;
+  left: 120px;
+  border-radius: 16px;
+} */
+
+element.style {
+  width: 1200px;
+  height: 620px;
+  padding: 20px;
+}
+.text-content {
+  flex: 1; /* Expand to take available space */
+  padding: 20px; /* Add spacing as needed */
+}
+
+.virtualspace {
+  margin-left: 20px; /* Add spacing as needed */
+}
+
+/* Add any other CSS styles as needed */
+.contentremote {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center; /* Align items vertically */
 }
 
-.App-link {
-  color: #61dafb;
+.left-side {
+  flex: 1; /* Expand to take available space */
+  padding: 20px; /* Add spacing as needed */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.right-side {
+  margin-left: 20px; /* Add spacing as needed */
 }
+
+/* Add any other CSS styles as needed */
+.contentvirtual {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.virtualspace {
+  margin-right: 20px; /* Add spacing as needed */
+}
+
+.right-side {
+  flex: 1; /* Expand to take available space */
+  padding: 20px; /* Add spacing as needed */
+}
+
+/* Add any other CSS styles as needed */
