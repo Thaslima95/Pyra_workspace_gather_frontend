@@ -1,21 +1,21 @@
 import React, { useEffect, useState } from "react";
-import { useNavigation } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import success from "../assets/Images/success.png";
 
 export default function Spacecreated() {
-  const navigate = useNavigation();
+  const navigate = useNavigate();
   const [visible, setVisible] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setVisible(false);
-      navigate("/another-page");
+      navigate("/invitePeople");
     }, 5000);
 
     return () => {
       clearTimeout(timer);
     };
-  }, [navigate]);
+  }, []);
 
   return (
     <div className={`verification${visible ? " visible" : ""}`}>
