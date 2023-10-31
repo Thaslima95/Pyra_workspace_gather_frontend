@@ -1,0 +1,9 @@
+/* ImageCarousel.css */
+.carousel-item {
+  margin: 0 10px; /* Adjust the margin to control the gap between items */
+}
+
+.carousel-item img {
+  width: 494px;
+  height: 298px;
+}

@@ -1,22 +1,112 @@
 /* src/components/HomePage.css */
-.home{
-  width: 800px; /* Set your desired layout size */
+.home {
+  width: 1199px; /* Set your desired layout size */
   margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 
 header {
   text-align: center;
-  background-color: #f0f0f0;
-  padding: 10px;
+  padding: 16px 20px;
+}
+
+.logo {
+  text-align: left;
+}
+
+.header-links {
+  text-align: right;
+}
+.links ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.links ul li {
+  display: inline;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  color: #050511;
+  margin-right: 25px;
+}
+
+.btn-active {
+  border-radius: 40px;
+  border: 1px solid var(--white-stroke, #b4b4b4);
+  background: var(
+    --white-stroke,
+    linear-gradient(
+      328deg,
+      rgba(180, 180, 180, 0.5) -5.42%,
+      rgba(201, 201, 201, 0.19) 127.13%
+    )
+  );
+  box-shadow: 3px 4px 9px 0px rgba(255, 255, 255, 0.08) inset,
+    -2px -4px 10px 0px rgba(255, 255, 255, 0.04) inset;
+}
+.align-center {
+  text-align: center;
+}
+
+.space-bottom {
+  margin-bottom: 80px;
+}
+.align-left {
+  text-align: left;
 }
 
 main {
   padding: 20px;
 }
 
+.img-rounded {
+  border-radius: 16px;
+}
+
+.title {
+  color: #050511;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  line-height: 35px;
+  margin: 0;
+  padding-top: 40px;
+}
+
+.text-block {
+  margin-bottom: 40px;
+}
+
+.confirmation {
+  padding-top: 200px;
+}
+
+.confirmation h3 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.6px;
+}
+.confirmation h4 {
+  font-family: Aileron;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24.48px;
+}
+.confirmation .btnopen {
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 40px;
+  border: 1px solid var(--white-stroke, #b4b4b4);
+  box-shadow: 3px 4px 9px 0px rgba(255, 255, 255, 0.08) inset,
+    -2px -4px 10px 0px rgba(255, 255, 255, 0.04) inset;
+}
 footer {
   text-align: center;
   background-color: #f0f0f0;
@@ -51,6 +141,17 @@ element.style {
   align-items: center; /* Align items vertically */
 }
 
+.build-block {
+  border-radius: 32px;
+  border: 2px solid #b2b2b2;
+  background: linear-gradient(
+    172deg,
+    rgba(0, 0, 0, 0.05) 0.97%,
+    rgba(130, 130, 130, 0.01) 93.95%
+  );
+  padding: 60px;
+}
+
 .left-side {
   flex: 1; /* Expand to take available space */
   padding: 20px; /* Add spacing as needed */
@@ -74,5 +175,21 @@ element.style {
   flex: 1; /* Expand to take available space */
   padding: 20px; /* Add spacing as needed */
 }
+.verification {
+  padding-top: 200px;
+}
 
-/* Add any other CSS styles as needed */
+.verification h3 {
+  color: var(--dark-60, #303039);
+  font-family: Aileron;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28.6px; /* 130% */
+}
+.verificationsuccess {
+  element.style {
+    width: 30px;
+    height: 30px;
+  }
+}
